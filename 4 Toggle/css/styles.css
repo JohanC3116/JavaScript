@@ -73,12 +73,12 @@ body {
   transform: rotate(135deg);
   background: #ff5a57;
 }
+.container.active::before {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
 .container.active {
   width: 400px;
   height: 400px;
-  transition-delay: 0.5s;
-}
-.container.active::before {
-  opacity: 1;
   transition-delay: 0.5s;
 }/*# sourceMappingURL=styles.css.map */
